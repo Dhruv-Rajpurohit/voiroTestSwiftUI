@@ -16,6 +16,8 @@
 		FCC6D13C281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D13B281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift */; };
 		FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D149281D1C5300153E05 /* Movie.swift */; };
 		FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D14C281D1F9A00153E05 /* MovieService.swift */; };
+		FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D14E281D23DC00153E05 /* MovieStore.swift */; };
+		FCC6D151281D253000153E05 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D150281D253000153E05 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		FCC6D13B281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FCC6D149281D1C5300153E05 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FCC6D14C281D1F9A00153E05 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		FCC6D14E281D23DC00153E05 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		FCC6D150281D253000153E05 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				FCC6D120281D196300153E05 /* ContentView.swift */,
 				FCC6D122281D196500153E05 /* Assets.xcassets */,
 				FCC6D124281D196500153E05 /* Preview Content */,
+				FCC6D150281D253000153E05 /* Utils.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				FCC6D14C281D1F9A00153E05 /* MovieService.swift */,
+				FCC6D14E281D23DC00153E05 /* MovieStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 				FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */,
 				FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */,
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
+				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
+				FCC6D151281D253000153E05 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
