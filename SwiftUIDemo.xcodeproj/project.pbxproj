@@ -14,6 +14,7 @@
 		FCC6D130281D196600153E05 /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D12F281D196600153E05 /* SwiftUIDemoTests.swift */; };
 		FCC6D13A281D196600153E05 /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D139281D196600153E05 /* SwiftUIDemoUITests.swift */; };
 		FCC6D13C281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D13B281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift */; };
+		FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D149281D1C5300153E05 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FCC6D135281D196600153E05 /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6D139281D196600153E05 /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		FCC6D13B281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCC6D149281D1C5300153E05 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		FCC6D11D281D196300153E05 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCC6D148281D1C4100153E05 /* Models */,
 				FCC6D11E281D196300153E05 /* SwiftUIDemoApp.swift */,
 				FCC6D120281D196300153E05 /* ContentView.swift */,
 				FCC6D122281D196500153E05 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				FCC6D13B281D196600153E05 /* SwiftUIDemoUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		FCC6D148281D1C4100153E05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6D149281D1C5300153E05 /* Movie.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				FCC6D121281D196300153E05 /* ContentView.swift in Sources */,
 				FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */,
+				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
