@@ -25,6 +25,7 @@
 		FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */; };
 		FCC6D1A4281E555500153E05 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A3281E555500153E05 /* ImageLoader.swift */; };
 		FCC6D1A6281E5B0700153E05 /* MovieBackdropCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */; };
+		FCC6D1A8281E5D0700153E05 /* MoviePosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A7281E5D0700153E05 /* MoviePosterCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCard.swift; sourceTree = "<group>"; };
 		FCC6D1A3281E555500153E05 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCarouselView.swift; sourceTree = "<group>"; };
+		FCC6D1A7281E5D0700153E05 /* MoviePosterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */,
 				FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */,
+				FCC6D1A7281E5D0700153E05 /* MoviePosterCard.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */,
 				FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */,
 				FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */,
+				FCC6D1A8281E5D0700153E05 /* MoviePosterCard.swift in Sources */,
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 				FCC6D1A4281E555500153E05 /* ImageLoader.swift in Sources */,
 				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
