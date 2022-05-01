@@ -29,6 +29,8 @@
 		FCC6D1AA281E5E4000153E05 /* MoviePosterCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A9281E5E4000153E05 /* MoviePosterCarouselView.swift */; };
 		FCC6D1AC281E5F1F00153E05 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1AB281E5F1F00153E05 /* MovieListView.swift */; };
 		FCC6D1AE281E5F7200153E05 /* MovieListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1AD281E5F7200153E05 /* MovieListState.swift */; };
+		FCC6D1B0281E62BB00153E05 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1AF281E62BB00153E05 /* MovieDetailView.swift */; };
+		FCC6D1B2281E62E000153E05 /* MovieDetailState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1B1281E62E000153E05 /* MovieDetailState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		FCC6D1A9281E5E4000153E05 /* MoviePosterCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCarouselView.swift; sourceTree = "<group>"; };
 		FCC6D1AB281E5F1F00153E05 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		FCC6D1AD281E5F7200153E05 /* MovieListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListState.swift; sourceTree = "<group>"; };
+		FCC6D1AF281E62BB00153E05 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		FCC6D1B1281E62E000153E05 /* MovieDetailState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +203,7 @@
 				FCC6D1A7281E5D0700153E05 /* MoviePosterCard.swift */,
 				FCC6D1A9281E5E4000153E05 /* MoviePosterCarouselView.swift */,
 				FCC6D1AB281E5F1F00153E05 /* MovieListView.swift */,
+				FCC6D1AF281E62BB00153E05 /* MovieDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			children = (
 				FCC6D1A3281E555500153E05 /* ImageLoader.swift */,
 				FCC6D1AD281E5F7200153E05 /* MovieListState.swift */,
+				FCC6D1B1281E62E000153E05 /* MovieDetailState.swift */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -345,10 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCC6D1B0281E62BB00153E05 /* MovieDetailView.swift in Sources */,
 				FCC6D121281D196300153E05 /* ContentView.swift in Sources */,
 				FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */,
 				FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */,
 				FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */,
+				FCC6D1B2281E62E000153E05 /* MovieDetailState.swift in Sources */,
 				FCC6D1A8281E5D0700153E05 /* MoviePosterCard.swift in Sources */,
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 				FCC6D1AE281E5F7200153E05 /* MovieListState.swift in Sources */,
