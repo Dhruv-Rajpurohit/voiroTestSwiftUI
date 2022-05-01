@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC13A976281E68C700289428 /* loadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC13A975281E68C700289428 /* loadingView.swift */; };
+		FC13A978281E692400289428 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC13A977281E692400289428 /* ActivityIndicatorView.swift */; };
 		FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D11E281D196300153E05 /* SwiftUIDemoApp.swift */; };
 		FCC6D121281D196300153E05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D120281D196300153E05 /* ContentView.swift */; };
 		FCC6D123281D196500153E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D122281D196500153E05 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC13A975281E68C700289428 /* loadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingView.swift; sourceTree = "<group>"; };
+		FC13A977281E692400289428 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		FCC6D11B281D196300153E05 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6D11E281D196300153E05 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		FCC6D120281D196300153E05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -204,6 +208,8 @@
 				FCC6D1A9281E5E4000153E05 /* MoviePosterCarouselView.swift */,
 				FCC6D1AB281E5F1F00153E05 /* MovieListView.swift */,
 				FCC6D1AF281E62BB00153E05 /* MovieDetailView.swift */,
+				FC13A975281E68C700289428 /* loadingView.swift */,
+				FC13A977281E692400289428 /* ActivityIndicatorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,9 +368,11 @@
 				FCC6D1AE281E5F7200153E05 /* MovieListState.swift in Sources */,
 				FCC6D1AA281E5E4000153E05 /* MoviePosterCarouselView.swift in Sources */,
 				FCC6D1A4281E555500153E05 /* ImageLoader.swift in Sources */,
+				FC13A976281E68C700289428 /* loadingView.swift in Sources */,
 				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
 				FCC6D1A6281E5B0700153E05 /* MovieBackdropCarouselView.swift in Sources */,
 				FCC6D1AC281E5F1F00153E05 /* MovieListView.swift in Sources */,
+				FC13A978281E692400289428 /* ActivityIndicatorView.swift in Sources */,
 				FCC6D151281D253000153E05 /* Utils.swift in Sources */,
 				FCC6D197281E523C00153E05 /* Movie+stub.swift in Sources */,
 			);
