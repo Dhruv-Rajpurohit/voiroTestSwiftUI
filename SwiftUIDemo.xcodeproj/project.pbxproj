@@ -22,6 +22,7 @@
 		FCC6D19C281E52D600153E05 /* movie_info.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D199281E52D600153E05 /* movie_info.json */; };
 		FCC6D19D281E52D600153E05 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D19A281E52D600153E05 /* movie_list.json */; };
 		FCC6D19E281E52D600153E05 /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D19B281E52D600153E05 /* search_movie.json */; };
+		FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		FCC6D199281E52D600153E05 /* movie_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_info.json; sourceTree = "<group>"; };
 		FCC6D19A281E52D600153E05 /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
 		FCC6D19B281E52D600153E05 /* search_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_movie.json; sourceTree = "<group>"; };
+		FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		FCC6D11D281D196300153E05 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCC6D19F281E54BB00153E05 /* Views */,
 				FCC6D198281E52D600153E05 /* Resources */,
 				FCC6D14B281D1F7C00153E05 /* Services */,
 				FCC6D148281D1C4100153E05 /* Models */,
@@ -173,6 +176,14 @@
 				FCC6D19B281E52D600153E05 /* search_movie.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FCC6D19F281E54BB00153E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 			files = (
 				FCC6D121281D196300153E05 /* ContentView.swift in Sources */,
 				FCC6D11F281D196300153E05 /* SwiftUIDemoApp.swift in Sources */,
+				FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */,
 				FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */,
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
