@@ -18,6 +18,10 @@
 		FCC6D14D281D1F9A00153E05 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D14C281D1F9A00153E05 /* MovieService.swift */; };
 		FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D14E281D23DC00153E05 /* MovieStore.swift */; };
 		FCC6D151281D253000153E05 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D150281D253000153E05 /* Utils.swift */; };
+		FCC6D197281E523C00153E05 /* Movie+stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D196281E523C00153E05 /* Movie+stub.swift */; };
+		FCC6D19C281E52D600153E05 /* movie_info.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D199281E52D600153E05 /* movie_info.json */; };
+		FCC6D19D281E52D600153E05 /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D19A281E52D600153E05 /* movie_list.json */; };
+		FCC6D19E281E52D600153E05 /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D19B281E52D600153E05 /* search_movie.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		FCC6D14C281D1F9A00153E05 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		FCC6D14E281D23DC00153E05 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		FCC6D150281D253000153E05 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FCC6D196281E523C00153E05 /* Movie+stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+stub.swift"; sourceTree = "<group>"; };
+		FCC6D199281E52D600153E05 /* movie_info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_info.json; sourceTree = "<group>"; };
+		FCC6D19A281E52D600153E05 /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movie_list.json; sourceTree = "<group>"; };
+		FCC6D19B281E52D600153E05 /* search_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_movie.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 		FCC6D11D281D196300153E05 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCC6D198281E52D600153E05 /* Resources */,
 				FCC6D14B281D1F7C00153E05 /* Services */,
 				FCC6D148281D1C4100153E05 /* Models */,
 				FCC6D11E281D196300153E05 /* SwiftUIDemoApp.swift */,
@@ -142,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				FCC6D149281D1C5300153E05 /* Movie.swift */,
+				FCC6D196281E523C00153E05 /* Movie+stub.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,6 +163,16 @@
 				FCC6D14E281D23DC00153E05 /* MovieStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		FCC6D198281E52D600153E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6D199281E52D600153E05 /* movie_info.json */,
+				FCC6D19A281E52D600153E05 /* movie_list.json */,
+				FCC6D19B281E52D600153E05 /* search_movie.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC6D126281D196500153E05 /* Preview Assets.xcassets in Resources */,
+				FCC6D19C281E52D600153E05 /* movie_info.json in Resources */,
+				FCC6D19D281E52D600153E05 /* movie_list.json in Resources */,
+				FCC6D19E281E52D600153E05 /* search_movie.json in Resources */,
 				FCC6D123281D196500153E05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +314,7 @@
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
 				FCC6D151281D253000153E05 /* Utils.swift in Sources */,
+				FCC6D197281E523C00153E05 /* Movie+stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
