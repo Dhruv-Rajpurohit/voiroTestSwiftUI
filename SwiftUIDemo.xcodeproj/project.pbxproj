@@ -24,6 +24,7 @@
 		FCC6D19E281E52D600153E05 /* search_movie.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC6D19B281E52D600153E05 /* search_movie.json */; };
 		FCC6D1A1281E54DF00153E05 /* MovieBackdropCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */; };
 		FCC6D1A4281E555500153E05 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A3281E555500153E05 /* ImageLoader.swift */; };
+		FCC6D1A6281E5B0700153E05 /* MovieBackdropCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		FCC6D19B281E52D600153E05 /* search_movie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search_movie.json; sourceTree = "<group>"; };
 		FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCard.swift; sourceTree = "<group>"; };
 		FCC6D1A3281E555500153E05 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				FCC6D1A0281E54DF00153E05 /* MovieBackdropCard.swift */,
+				FCC6D1A5281E5B0700153E05 /* MovieBackdropCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				FCC6D14A281D1C5300153E05 /* Movie.swift in Sources */,
 				FCC6D1A4281E555500153E05 /* ImageLoader.swift in Sources */,
 				FCC6D14F281D23DC00153E05 /* MovieStore.swift in Sources */,
+				FCC6D1A6281E5B0700153E05 /* MovieBackdropCarouselView.swift in Sources */,
 				FCC6D151281D253000153E05 /* Utils.swift in Sources */,
 				FCC6D197281E523C00153E05 /* Movie+stub.swift in Sources */,
 			);
