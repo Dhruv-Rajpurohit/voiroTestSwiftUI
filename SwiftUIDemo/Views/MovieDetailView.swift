@@ -33,8 +33,20 @@ struct MovieDetailListView: View {
             MovieDetailImage(imageLoader: imageLoader, imageURL: self.movie.backdropURL)
                 .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
             
-           
+            HStack {
+                Text(movie.genreText)
+                Text("·")
+                Text(movie.yearText)
+                Text(movie.durationText)
+            }
             
+            Text(movie.overview)
+            HStack {
+                if !movie.ratingText.isEmpty {
+                    Text(movie.ratingText).foregroundColor(.yellow)
+                }
+                Text(movie.scoreText)
+            }
         }
     }
 }
@@ -45,7 +57,7 @@ struct MovieDetailImage: View {
     let imageURL: URL
     
     var body: some View {
-        ZStack {
+        ZStack{
             Rectangle().fill(Color.gray.opacity(0.3))
             if self.imageLoader.image != nil {
                 Image(uiImage: self.imageLoader.image!)
